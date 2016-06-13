@@ -18,17 +18,35 @@ coding for javaorder
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quantity"
+        android:paddingBottom="16dp"
         android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/buttonpos"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:onClick="increment"/>
 
     <TextView
         android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:text="0"
+        android:text="2"
         android:textAllCaps="true"
         android:textColor="#000000"
         android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonneg"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="-"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:onClick="decrement"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -58,4 +76,3 @@ coding for javaorder
 
 
 </LinearLayout>
-
