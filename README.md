@@ -1,4 +1,4 @@
-# javaorder2_udacity
+# javaOrder_udacityClass
 coding for javaorder
 
 <?xml version="1.0" encoding="utf-8"?>
